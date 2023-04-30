@@ -1,0 +1,144 @@
+body{
+  box-sizing: border-box;
+}
+
+.section{
+  height: 110vh;
+  background-color: #dfdfdf;
+}
+
+.section .container .row .col-12{
+  position: relative;
+  top: 250px;
+  left: 6px;
+}
+
+.section .container .row .col-12 h3{
+  padding-bottom: 5px;
+}
+
+.section .container .row .col-12 h1{
+  width: 600px;
+  font-size: 70px;
+  font-weight: 700;
+  color: #274C5B;
+  padding-bottom: 5px;
+}
+
+.section .container .row .col-12 .btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #274C5B;
+  width: 220px;
+  height: 80px;
+  border-radius: 15px;
+  background: #EFD372;;
+}
+
+.section .container .row .col-12 .btn i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #274C5B;
+}
+
+
+
+.container .row .col-xl-6 .card{
+  background: #274C5B;
+  color: white;
+  height: 378px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 33px;
+  padding: 55px;
+}
+
+.catalog .container{
+  padding-top: 120px;
+}
+
+.catalog .container .row .col-4 .card{
+  height: 590px;
+  background: #7EB693;
+  border-radius: 30px;
+  margin-bottom: 33px;
+}
+
+.grid .container{
+  max-width: 1320px;
+  padding-top: 110px;
+}
+
+.grid .container .row .col-6 .firstcard{
+  height: 620px;
+  background: #274C5B;
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+}
+
+.grid .container .row .col-6 .row .col-6 .card{
+  height: 300px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  background: #7EB693;
+}
+
+.hundred .container{
+  padding: 100px 0;
+
+}
+
+.hundred .container .row .col-3{
+  color: #274C5B;
+}
+
+.hundred .container .row .col-3 .card{
+  width: 240px;
+  height: 240px;
+  border: 5px solid #274C5B;
+  border-radius: 50%;
+  font-size: 50px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  padding: 100px 0;
+}
+
+.footer .container .row .col-3 .first {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  border-right: 2px solid #dfdfdf;
+  padding-right: 20px;
+  color: #274C5B;
+
+}
+
+
+.footer .container .row .col-6 .middle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #274C5B;
+  
+}
+
+.footer .container .row .col-3 .last{
+  border-left: 2px solid #dfdfdf;
+  padding-left: 20px;
+  color: #274C5B;
+  
+}
